@@ -1,0 +1,21 @@
+{
+  "name": "nodestudy",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "events": "^1.1.1"
+  },
+  "dependencies": {
+    "argv": "^0.0.2",
+    "events": "^1.1.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "xc-urlparam": "^1.0.0"
+  },
+  "description": ""
+}
