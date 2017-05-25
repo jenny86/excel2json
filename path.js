@@ -37,7 +37,7 @@ function fn(a){
 }
 fn();
 console.log(a.x);
-console.log(a.y)
+console.log(a.y);
 
 
 // function fun(n,o){
