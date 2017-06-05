@@ -1,6 +1,6 @@
 {
   "name": "exceltojson",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "events": "^1.1.1"
   },
   "bin":{
-    "create":"excel2json"
+    "create":"./excel2json.js"
   },
   "dependencies": {
     "argv": "^0.0.2",
