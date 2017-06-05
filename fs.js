@@ -71,7 +71,7 @@ var fs = require('fs');
 
 
 fs.stat('word.txt',function(err,stat){
-	console.log(stats.isFile())
+	console.log(stat.isFile())
 	console.log(stat.isDirectory())
 })
 

@@ -1,21 +1,36 @@
 {
-  "name": "nodestudy",
-  "version": "1.0.0",
+  "name": "exceltojson",
+  "version": "1.0.1",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "jenny",
   "license": "ISC",
   "devDependencies": {
     "events": "^1.1.1"
+  },
+  "bin":{
+    "create":"excel2json"
   },
   "dependencies": {
     "argv": "^0.0.2",
     "events": "^1.1.1",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
-    "xc-urlparam": "^1.0.0"
+    "xc-urlparam": "^1.0.0",
+    "node-xlsx":"0.7.4"
   },
-  "description": ""
+  "description": "this excel transform json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenny86/excel2json.git"
+  },
+  "keywords": [
+    "excel2json"
+  ],
+  "bugs": {
+    "url": "https://github.com/jenny86/excel2json/issues"
+  },
+  "homepage": "https://github.com/jenny86/excel2json#readme"
 }
