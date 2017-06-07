@@ -25,3 +25,6 @@
 // // 输出：test
 // console.log( path.basename('/tmp/demo/js/test.js', '.js') );
 
+
+//参数
+console.log('hello ', process.argv[1]);

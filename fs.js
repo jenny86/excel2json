@@ -70,9 +70,24 @@ var fs = require('fs');
 //console.log(fs.statSync('word.txt'));
 
 
-fs.stat('word.txt',function(err,stat){
-	console.log(stat.isFile())
-	console.log(stat.isDirectory())
-})
+// fs.stat('word.txt',function(err,stat){
+// 	console.log(stat.isFile())
+// 	console.log(stat.isDirectory())
+// })
+
+
+/*
+* fs 检测文件是否存在
+*
+*/
+//console.log(fs.existsSync('word1.txt'));
+//console.log(fs.existsSync('creatdir'));
+
+/*
+* fs 创建文件夹
+*
+*/
+// fs.mkdirSync('creatdir', 0777);
+
 
 
